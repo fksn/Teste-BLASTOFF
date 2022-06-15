@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(71, 71, 71);
+}
+h1{
+    text-align: center;
+}
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.7fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header Header Header"
+      "Menu Main Right"
+      "Menu Footer Footer";
+  }
+  
+.Header { 
+    grid-area: Header; 
+    position: relative;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    color: white;
+}
+.Menu { 
+    grid-area: Menu; 
+    position: relative;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    color: white;
+}
+.Main { 
+    grid-area: Main; 
+    position: relative;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    color: white;
+}
+.Right { 
+    grid-area: Right; 
+    position: relative;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    color: white;
+}
+.Footer { 
+    grid-area: Footer; 
+    position: relative;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    color: white;
+}

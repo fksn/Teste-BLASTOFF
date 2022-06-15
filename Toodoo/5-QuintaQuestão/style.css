@@ -1,0 +1,16 @@
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+li{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+li:last-of-type {
+    border-bottom : none
+}
+div{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    align-items: center;
+}
